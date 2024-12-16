@@ -1,13 +1,13 @@
 # BlueDucky Ver 2.1 (Android) 
 
 Thanks to all the people at HackNexus. Make sure you come join us on VC !
-https://discord.gg/HackNexus
+https://t.me/teambothacker 
 
 NOTES: I will not be able to run this on a laptop or other device outside of a raspberry pi for testing. Due to this, any issues you have will need to be resolved amonsgt each other as I do not have the spare funds to buy an adapter. 
 
-1. [saad0x1's GitHub](https://github.com/saad0x1)
-2. [spicydll's GitHub](https://github.com/spicydll)
-3. [lamentomori's GitHub](https://github.com/lamentomori)
+1. [WASIM's GitHub](https://github.com/WASIM-360)
+2. [WASIM's GitHub](https://github.com/wasimmoulik008)
+3. [WASIM's YOUTUB](https://youtub.com/wasim-360)
 
 <p align="center">
   <img src="./images/duckmenu.png">
@@ -83,7 +83,7 @@ sudo cp bdaddr /usr/local/bin/
 
 # Running BlueDucky
 ```bash
-git clone https://github.com/pentestfunctions/BlueDucky.git
+git clone https://github.com/WASIM-360/BlueDucky.git
 cd BlueDucky
 sudo hciconfig hci0 up
 python3 BlueDucky.py
@@ -143,7 +143,7 @@ ENTER
 DELAY 300
 ```
 
-## Enjoy experimenting with BlueDucky! ðŸŒŸ
+# Enjoy experimenting with BlueDucky! 
 
 
 
