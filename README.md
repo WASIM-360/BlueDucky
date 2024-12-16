@@ -1,4 +1,4 @@
-# BlueDucky Ver 2.1 (Android) ðŸ¦†
+# BlueDucky Ver 2.1 (Android) 
 
 Thanks to all the people at HackNexus. Make sure you come join us on VC !
 https://discord.gg/HackNexus
@@ -13,9 +13,9 @@ NOTES: I will not be able to run this on a laptop or other device outside of a r
   <img src="./images/duckmenu.png">
 </p>
 
-ðŸš¨ CVE-2023-45866 - BlueDucky Implementation (Using DuckyScript)
+ CVE-2023-45866 - BlueDucky Implementation (Using DuckyScript)
 
-ðŸ”“ Unauthenticated Peering Leading to Code Execution (Using HID Keyboard)
+ Unauthenticated Peering Leading to Code Execution (Using HID Keyboard)
 
 [This is an implementation of the CVE discovered by marcnewlin](https://github.com/marcnewlin/hi_my_name_is_keyboard)
 
@@ -23,7 +23,7 @@ NOTES: I will not be able to run this on a laptop or other device outside of a r
   <img src="./images/BlueDucky.gif">
 </p>
 
-## Introduction ðŸ“¢
+# Introduction
 BlueDucky is a powerful tool for exploiting a vulnerability in Bluetooth devices. By running this script, you can:
 
 1. ðŸ“¡ Load saved Bluetooth devices that are no longer visible but have Bluetooth still enabled.
@@ -32,9 +32,9 @@ BlueDucky is a powerful tool for exploiting a vulnerability in Bluetooth devices
 
 I've successfully run this on a Raspberry Pi 4 using the default Bluetooth module. It works against various phones, with an interesting exception for a New Zealand brand, Vodafone.
 
-## Installation and Usage ðŸ› ï¸
+# Installation and Usage
 
-### Setup Instructions for Debian-based 
+# Setup Instructions for Debian-based 
 
 ```bash
 # update apt
@@ -57,7 +57,7 @@ git clone --depth=1 https://github.com/bluez/bluez.git
 gcc -o bdaddr ~/bluez/tools/bdaddr.c ~/bluez/src/oui.c -I ~/bluez -lbluetooth
 sudo cp bdaddr /usr/local/bin/
 ```
-### Setup Instructions for Arch-based 
+# Setup Instructions for Arch-based 
 
 ```bash
 # update pacman & packages
@@ -81,7 +81,7 @@ gcc -o bdaddr ~/bluez/tools/bdaddr.c ~/bluez/src/oui.c -I ~/bluez -lbluetooth
 sudo cp bdaddr /usr/local/bin/
 ```
 
-## Running BlueDucky
+# Running BlueDucky
 ```bash
 git clone https://github.com/pentestfunctions/BlueDucky.git
 cd BlueDucky
@@ -95,7 +95,7 @@ alternatively,
 pip3 install -r requirements.txt
 ```
 
-## Operational Steps ðŸ•¹ï¸
+# Operational Steps
 1. On running, it prompts for the target MAC address.
 2. Pressing nothing triggers an automatic scan for devices.
 3. Devices previously found are stored in known_devices.txt.
@@ -103,21 +103,21 @@ pip3 install -r requirements.txt
 5. Executes using payload.txt file.
 6. Successful execution will result in automatic connection and script running.
 
-## Duckyscript ðŸ’»
+## Duckyscript »
 ðŸš§ Work in Progress:
 - Suggest me ideas
 
-## Version 2.1 ðŸ›
+# Version 2.1
 - Updated UI
 - Improved User Experience
 - Bluetooth Debugger; Checks your bluetooth adapters, and installed dependancies before allowing access to the application, this is to prevent devices that are not supported.
 - Please Note: Numerous Changes have been made,please reference the commit history for specific changes.
-  
-## What's Planned for the Next Release?
+ 
+# What's Planned for the Next Release?
 - Integrated DuckyScript Console for attacks that want to maintain persistance, after a payload has been ran
 - Suggest What Should be added next! Join https://discord.gg/HackNexus
 
-#### ðŸ“ Example payload.txt:
+# Example payload.txt:
 ```bash
 REM Title of the payload
 STRING ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_-=+\|[{]};:'",<.>/?
