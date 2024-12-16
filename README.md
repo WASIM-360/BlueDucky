@@ -120,7 +120,7 @@ pip3 install -r requirements.txt
 # Example payload.txt:
 ```bash
 REM Title of the payload
-STRING ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890!@#$%^&*()_-=+\|[{]};:'",<.>/?
+STRING ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890   HACKD BY TEAM BOT HACKER
 GUI D
 ```
 
